@@ -1,6 +1,6 @@
 body{
     background-color: #EFDEFF;
-    overflow: hidden;
+    /* overflow: hidden; */
     width: 100%;
     height: 100%;
     font-family: 'Montserrat', sans-serif;
@@ -33,6 +33,7 @@ main section div.titleOfFood{
     text-align: center;
     color: red;
     font-weight: 700;
+    margin-bottom: -2%;
     
 }
 
@@ -44,6 +45,10 @@ main section div.ingredients{
     text-align: center;
 }
 
-.one{
-    list-style: square;
+main section ul{
+    list-style-type: square;
+}
+
+main section h1{
+    text-align: center;
 }
